@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wisata-SBB</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://x.com/SBB_ID"target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/sbbkab/?_rdc=1&_rdr"target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://id.linkedin.com/in/stevensiwalette?original_referer=https%3A%2F%2Fwww.bing.com%2F"target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/exoticmalukutourism/reel/CP4SLkCnQl2/"target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/watch?v=ngRCwajzJLs"target="_blank"><i class="fab fa-youtube fw-normal"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                  <a><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>WISATA SERAM BAGIAN BARAT</small></a>
+                  <!-- Tambahkan tombol atau teks "Pilih Bahasa" di sini -->
+                <!-- Google Translate Dropdown -->
+                <div id="google_translate_element" class="ms-3"></div>      
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Wisata-SBB</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="services.html" class="nav-item nav-link">Services</a>
+                        <a href="packages.html" class="nav-item nav-link">Packages</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="Blog-pulau-buano.html" class="dropdown-item active">Buano Island</a>
+                                <a href="gallery.html" class="dropdown-item">Our Gallery</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <img src="img/sbb.png" height="55" width="70" alt="Image">
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4">Selat Valentine Buano</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    
+                    <li class="breadcrumb-item active text-white">Buano Island</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+  
+    
+    <!-- Gallery Start -->
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 order-md-last ftco-animate py-md-5 mt-md-5">
+            <h2 class="mb-3">Keindahan Alam & Panorama Wisata Selat Valentine Buano SBB</h2>
+            <div style="text-align: justify;">
+            <p>"Selat Valentine Buano, yang terletak di Seram Bagian Barat, Kecamatan Huamual Belakang, adalah salah satu permata tersembunyi di Indonesia. Keindahannya yang mempesona menawarkan pemandangan yang menakjubkan dengan air laut yang jernih dan hamparan alam yang masih alami. Saat matahari terbenam, Selat Valentine Buano berubah menjadi panorama yang menakjubkan, dengan langit berwarna oranye keemasan yang memantul di permukaan air."
+            </p>
+            </div>
+            <p>
+              <img src="img/selat valentine 15.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+            </p>
+            <div style="text-align: justify;">
+            <p>Selat ini tidak hanya menawarkan pemandangan yang luar biasa, tetapi juga memberikan kesempatan untuk berbagai aktivitas laut seperti snorkeling, menyelam, dan memancing. Kehidupan bawah lautnya yang kaya dan terumbu karang yang berwarna-warni menjadi daya tarik tersendiri bagi para pecinta alam dan penyelam.</p>
+            </div>
+            <h2 >Lokasi & Akses ke Pulau Buano</h2>
+            <div style="text-align: justify;">
+            <p><b>Dari Ambon Ke Desa Tulehu :</b>Perjalanan dimulai dari Kota Ambon. Dari pusat kota, Anda bisa menuju ke Pelabuhan Tulehu, yang terletak sekitar 35 kilometer dari Ambon. Perjalanan ini bisa ditempuh dengan menggunakan kendaraan pribadi atau angkutan umum, seperti bus atau taksi, yang memakan waktu sekitar 1-1,5 jam tergantung kondisi lalu lintas.<p>
+              </p></p></div>
+              <div style="text-align: justify;">
+              <p><b>Penyeberangan dari Pelabuhan Tulehu ke Seram (Pelabuhan Amahai atau Pelabuhan Waipirit):</b>Setelah tiba di Pelabuhan Tulehu, Anda bisa naik kapal feri menuju Pulau Seram. Terdapat dua pilihan pelabuhan tujuan di Pulau Seram:
+              <br><b>Pelabuhan Amahai di Seram bagian tengah.</b>Perjalanan feri ke Amahai biasanya memakan waktu sekitar 2-3 jam.</br>
+            <b>Pelabuhan Waipirit di Seram bagian barat.</b>Perjalanan ke Waipirit lebih singkat, sekitar 1-2 jam.
+            Disarankan untuk menuju Pelabuhan Waipirit karena jaraknya lebih dekat ke Kecamatan Huamual Belakang.</p>
+            <p><b>Dari Pelabuhan Waipirit ke Desa Piru:</b>Setelah tiba di Pelabuhan Waipirit, Anda perlu melanjutkan perjalanan darat menuju Desa Piru, yang merupakan ibu kota Kabupaten Seram Bagian Barat. Perjalanan ini memakan waktu sekitar 1-1,5 jam dengan menggunakan kendaraan umum atau sewa mobil.</p>
+            <p><b>Dari Desa Piru ke Pulau Buano:</b>Dari Desa Piru, Anda harus melanjutkan perjalanan ke Pulau Buano. Ada beberapa pilihan transportasi laut seperti kapal cepat atau perahu motor yang tersedia di pelabuhan kecil di Piru. Perjalanan laut ini biasanya memakan waktu sekitar 1-2 jam tergantung kondisi cuaca dan jenis perahu yang digunakan.</p>
+            </div>
+            <p>
+              <img src="img/selat valentine buano 5.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+            </p>
+            <h2 class="mb-3 mt-5">Sejarah Singkat Wisata Selat Valentine Buano</h2>
+            <div style="text-align: justify;">
+            <p>Selat ini berada di antara Pulau Buano dan Pulau Pua, Kecamatan Waisala. Nama Valentine pada selat tersebut konon diberikan oleh seorang tentara Belanda pada masa penjajahan. Menurut penuturan masyarakat setempat, Selat Valentine memang menjadi tempat persembunyian kapal-kapal Belanda yang dikejar oleh kapal musuh.</p>
+            <p>Selat Valentine juga dikenal masyarakat Pulau Buano sebagai laut Halawane. Terdapat cerita yang melegenda di sekitar masyarakat lokal. Katanya, selat tersebut merupakan salah satu Negeri Pertama yang ditinggali Henaolu dan dipimpin Latu Halawane.
+              Kuburan tua dan beberapa peninggalan sejarah bekas Negeri Halawane dapat pengunjung temukan di sini.</p>
+            </div>
+              <h2 class="mb-3 mt-5">Tips Perjalanan:</h2>
+              <div style="text-align: justify;">
+            <p><li><b>Persiapkan Bekal:</b>Bawa cukup makanan, air minum, dan perlengkapan pribadi karena fasilitas di beberapa tempat mungkin terbatas.</li>
+            <li><b>Cek Jadwal Kapal:</b> Pastikan untuk memeriksa jadwal keberangkatan kapal feri dan perahu untuk menghindari keterlambatan.</li>
+          <li><b>Cuaca dan Keamanan:</b> Selalu periksa kondisi cuaca sebelum berangkat dan utamakan keselamatan selama perjalanan laut.</li>
+        <li><b>Penginapan:</b> Cari informasi tentang penginapan di Pulau Buano atau Desa Piru jika Anda berencana untuk menginap.</li></p>
+           </div>
+            <div class="tag-widget post-tag-container mb-5 mt-5">
+             
+                <center><h3>Komentar Pengunjung</h3> </center>
+              
+            </div>
+            
+            <div class="about-author d-flex p-4 bg-light">
+              <div class="bio mr-5">
+                <img src="img/selat valentine buano 6.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+              </div>
+              <div class="desc">
+                <h3>Mm Ami</h3>
+                <div style="text-align: justify;">
+                <p>"terpesona oleh keindahan alam Selat Valentine. Air lautnya yang tenang dan jernih, hutan mangrove, serta tebing-tebing batu yang menjulang tinggi membuat tempat ini tampak seperti surga tersembunyi. Pulau-pulau kecil di sekitar selat juga menambah daya tarik wisata bahari di kawasan ini.ini merupakan wisata yang tak terlupakan bagi saya dan keluarga"</p>
+              </div>
+            </div>
+            </div>
+            <div class="about-author d-flex p-4 bg-light">
+              <div class="bio mr-5">
+                <img src="img/selat valentine buano 5.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+              </div>
+              <div class="desc">
+                <h3>Risman Buton</h3>
+                <div style="text-align: justify;">
+                <p>"Cerita Sejarah yang Menarik: Selat ini dinamai oleh tentara Belanda pada masa penjajahan karena bentuknya yang menyerupai hati jika dilihat dari ketinggian tertentu. Masyarakat setempat juga menceritakan bahwa tempat ini dulu digunakan sebagai persembunyian kapal-kapal Belanda dari kejaran musuh, menambah nilai historis dan daya tarik tempat ini​ "</p>
+              </div>
+            </div>
+            </div>
+            <div class="about-author d-flex p-4 bg-light">
+              <div class="bio mr-5">
+                <img src="img/selat valentine buano 7.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+              </div>
+              <div class="desc">
+                <h3>Akbar Hamid</h3>
+                <div style="text-align: justify;">
+                <p>"Akses dan Fasilitas: Meskipun tergolong sebagai daerah terpencil, akses ke Selat Valentine bisa dicapai melalui perjalanan dari Ambon ke Pelabuhan Hunimua, dilanjutkan dengan kapal ferry ke Seram Bagian Barat, dan kemudian menggunakan kendaraan laut sewaan ke Pulau Buano.Tapi Ini merupakan Tempat Wisaya Yang Indah "</p>
+              </div>
+            </div>
+            </div>
+            <div class="container-fluid gallery py-5 my-5">
+              <div class="mx-auto text-center mb-5" style="max-width: 400px;">
+                  <h5 class="section-title px-3">Pulau Buano SBB</h5>
+                  <h1 class="mb-4">Produk Lokal & Tradisi Pulau Buano</h1>
+              </div>
+              <center><h4>Minyak Kayu Putih</h4></center>
+              <div class="about-author d-flex p-4 bg-light">
+                <div class="bio mr-5">
+                  <img src="img/selat valentine buano 8 (23).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                </div> 
+               <div class="bio mr-5">
+                <img src="img/selat valentine buano 8 (1).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                </div>
+
+               </div>
+               <center><h4>Kerajinan Kipas</h4></center>
+               <div class="about-author d-flex p-4 bg-light">
+                <div class="bio mr-5">
+                  <img src="img/selat valentine buano 8 (3).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                </div>
+                <div class="bio mr-5">
+                  <img src="img/selat valentine buano 8 (4).webp" class="img-fluid w-100 h-100 rounded" alt="Image">
+                </div>
+
+                </div>
+                <center><h4>Kerajinan Tas</h4></center>
+                <div class="about-author d-flex p-4 bg-light">
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (1).jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (21).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  </div>
+
+                <center><h4>Kerajian Wadah/Storage</h4></center>
+                <div class="about-author d-flex p-4 bg-light">
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (3).jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (4).jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  </div>
+
+                  <center><h4>Tradisi Sasi Laut</h4></center>
+                <div class="about-author d-flex p-4 bg-light">
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (1).webp" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (2).jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  </div>
+
+                  <center><h4>Adat Hena Puan</h4></center>
+                <div class="about-author d-flex p-4 bg-light">
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (15).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+                  <div class="bio mr-5">
+                    <img src="img/selat valentine buano 8 (16).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                  </div>
+
+                </div>
+                <center><h4>Perayaan Aroha</h4></center>
+                <div class="about-author d-flex p-4 bg-light">
+                 <div class="bio mr-5">
+                   <img src="img/selat valentine buano 8 (24).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                 </div>
+                 <div class="bio mr-5">
+                   <img src="img/selat valentine buano 8 (22).jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                 </div>
+                 </div>
+               
+</p>
+              <!-- END comment-list --> 
+              <div class="comment-form-wrap pt-5">
+              </div>
+            </div>
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-4 sidebar ftco-animate bg-light py-md-5">
+            <div class="sidebar-box pt-md-5">
+              <center>
+                <a href="https://www.google.com/maps/place/Pulau+Boano,+Kec.+Huamual+Belakang,+Kabupaten+Seram+Bagian+Barat,+Maluku/data=!4m2!3m1!1s0x2d6dd5b8f31ecb09:0xea7aaa1c7f2b8247?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjEzNC4xMDQYACDXggMqWiw5NDIyNjk2Niw5NDIxMjQ5Niw5NDIxMjY2Niw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSUQ%3D&g_st=aw">
+                  <h4 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Lokasi Pulau Buano</h4>
+                </center>
+                <p>
+            </div>
+            <div class="sidebar-box ftco-animate">
+              <div class="categories">
+                <h3><center>Foto Pengunjung</center></h3></p>
+                <p><img src="img/selat valentine buano 6.jpg" class="img-fluid w-100 h-100" alt=""></p>
+                 <p> <img src="img/selat valentine buano 8 (9).jpg" class="img-fluid w-100 h-100" alt=""></p>
+            <p> <img src="img/selat valentine 17.jpg" class="img-fluid w-100 h-100" alt=""></p>
+            <p> <img src="img/selat valentine 9.jpg" class="img-fluid w-100 h-100" alt=""></p>
+            <p> <img src="img/selat valentine buano 8 (10).jpg" class="img-fluid w-100 h-100" alt=""></p>
+            <p> <img src="img/selat valentine buano 8 (11).jpg" class="img-fluid w-100 h-100" alt=""></p>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+             
+              <div class="block-21 mb-4 d-flex">
+                <div style="text-align: center;">
+                  <h3>Vlog Pulau Buano SBB</h3>
+                  <iframe width="360" height="315" src="https://www.youtube.com/embed/7I-z14ZxcUk?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+              </div>
+                <div class="text">
+                 
+                  <div class="meta">
+                    
+                </div>
+              </div>
+              
+             
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3><center>Galery Selat Valentine Buano</center></h3>
+              
+             <p><img src="img/selat valentine 11.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 15.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p> 
+             <p><img src="img/selat valentine buano 8 (13).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 19.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p> 
+             <p><img src="img/selat valentine buano 2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (7).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (5).webp" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (8).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (6).webp" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (17).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 14.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (12).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 16.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 8.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine buano 8 (14).jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <p><img src="img/selat valentine 18.jpg" class="img-fluid w-100 h-100 rounded" alt="Image"></p>
+             <div style="text-align: justify;">
+             <a> <h6>Paduan Sejarah dan Keindahan:"Temukan sejarah yang tersembunyi di balik keindahan Selat Valentine, tempat persembunyian kapal-kapal Belanda yang kini menjadi destinasi wisata yang memesona."</a></h6>
+             </div>      
+            </div>
+        </div>
+      </div>
+    </section> 
+     <!-- Gallery End -->
+
+   <!-- Footer Start -->
+   <div class="container-fluid footer py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Kontak Kami</h4>
+                    <a ><i class="fas fa-home me-2"></i> Dinas Pariwisata SBB</a>
+                            <a ><i class="fas fa-envelope me-2"></i> kontak@sbbkab.go.id</a>
+                            <a ><i class="fas fa-phone me-2"></i> +(0911)00000</a>
+                            <a  class="mb-3"><i class="fas fa-print me-2"></i> +(0911)00000</a>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-share fa-2x text-white me-2"></i>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://web.facebook.com/sbbkab/?_rdc=1&_rdr"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://x.com/SBB_ID"target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://www.instagram.com/exoticmalukutourism/reel/CP4SLkCnQl2/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://id.linkedin.com/in/stevensiwalette?original_referer=https%3A%2F%2Fwww.bing.com%2F"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Information</h4>
+                    <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                    <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                    <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                    <a href="services.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                    <a href="packages.html"><i class="fas fa-angle-right me-2"></i> packages</a>
+                    <a href="gallery.html"><i class="fas fa-angle-right me-2"></i> Our Galeri</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Information-Resto</h4>
+                    <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    <a href="tour - resto-osi.html"><i class="fas fa-angle-right me-2"></i> Resto Pulau Osi</a>
+                    <a href="tour -luku-cafe.html"><i class="fas fa-angle-right me-2"></i> D,Luku Caffe Kairatu</a>
+                    <a href="tour -makan 99.html"><i class="fas fa-angle-right me-2"></i> Rumah Makan 99</a>
+                    <a href="tour -makanan-has-sbb.html"><i class="fas fa-angle-right me-2"></i> Makanan Has SBB</a>
+                    <a href="tour.html"><i class="fas fa-angle-right me-2"></i> Resto Putri Negri Kawa</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Information-Hotels</h4>
+                    <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    <a href="guides.html"><i class="fas fa-angle-right me-2"></i> Hotel Amboina Kairatu</a>
+                    <a href="hotel-kairatu-beach.html"><i class="fas fa-angle-right me-2"></i> Hotel Kairatu Beach</a>
+                    <a href="arion-penginapan.html"><i class="fas fa-angle-right me-2"></i> Arion Penginapan</a>
+                    <a href="mitra-hotel.html"><i class="fas fa-angle-right me-2"></i> Mitra Hotel</a>
+                    <a href="penginapan-indah.html"><i class="fas fa-angle-right me-2"></i> Penginapan Indonesia indah</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item">
+                    <div class="row gy-3 gx-2 mb-4">
+                        <div class="col-xl-6">
+                          
+                        </div>
+                        <div class="col-xl-6">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright text-body py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-end mb-md-0">
+                <a class="text-white">Copyrght &copy;<script>document.write(new Date().getFullYear());</script> Wisata-SBB, All right reserved.</a>
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+                <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                <a class="text-white">Desaigned and Developed By Andi Arfian</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+  
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

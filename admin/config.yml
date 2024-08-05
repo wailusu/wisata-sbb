@@ -1,0 +1,229 @@
+backend:
+  name: test-repo
+  repo: owner/repo
+  branch: main
+  auth_type: api
+  auth_endpoint: https://api.netlify.com
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "index Page"
+        name: "index"
+        file: "index.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "About Page"
+        name: "about"
+        file: "about.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Arion Penginapan Page"
+        name: "arion-penginapan"
+        file: "arion-penginapan.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Blog Air Terjun Lumoli Page"
+        name: "Blog-air-terjun-lumoli"
+        file: "Blog-air-terjun-lumoli.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Blog pulau alang asaude Page"
+        name: "Blog-pulau-alang-asaude"
+        file: "Blog-pulau-alang-asaude.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Blog pulau buano Page"
+        name: "Blog-pulau-buano"
+        file: "Blog-pulau-buano.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" } 
+
+      - label: "Blog pulau manipa luhutubang Page"
+        name: "Blog-pulau-manipa-luhutubang"
+        file: "Blog-pulau-manipa-luhutubang.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }   
+     
+      - label: "hotel kairatu beach Page"
+        name: "hotel-kairatu-beach"
+        file: "hotel-kairatu-beach.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }   
+
+      - label: "penginapan indah Page"
+        name: "penginapan-indah"
+        file: "penginapan-indah.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }   
+
+      - label: "tour resto osi Page"
+        name: "tour - resto-osi.html"
+        file: "tour - resto-osi.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+      
+      - label: "tour luku cafe Page"
+        name: "tour -luku-cafe"
+        file: "tour -luku-cafe.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" } 
+
+      - label: "tour makan 99 Page"
+        name: "tour -makan 99"
+        file: "tour -makan 99.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" } 
+      
+      - label: "tour makan has sbb Page"
+        name: "tour -makanan-has-sbb"
+        file: "tour -makanan-has-sbb.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" } 
+      
+      - label: "Packages Page"
+        name: "packages"
+        file: "packages.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Services Page"
+        name: "services"
+        file: "services.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Testimonial Page"
+        name: "testimonial"
+        file: "testimonial.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Destination Page"
+        name: "destination"
+        file: "destination.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Gallery Page"
+        name: "gallery"
+        file: "gallery.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Guides Page"
+        name: "guides"
+        file: "guides.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Blog Page"
+        name: "blog"
+        file: "blog.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Blog Pulau Osi Page"
+        name: "Blog-pulau-osi"
+        file: "Blog-pulau-osi.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Mitra Hotel Page"
+        name: "mitra-hotel"
+        file: "mitra-hotel.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
+
+      - label: "Tour Page"
+        name: "tour"
+        file: "tour.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "html" }
+          - { label: "Main Image", name: "main_image", widget: "image" }
+          - { label: "Video", name: "video", widget: "file", media_library: { allow_multiple: false }, default: "" }
