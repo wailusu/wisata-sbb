@@ -184,8 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
-       
-        includedLanguages: 'en,id,ru,ar,ms', // Ganti amb dengan ms untuk Bahasa Melayu
+        includedLanguages: 'en,id,ru,ar,ms,nl', // Tambahkan 'nl' untuk Bahasa Belanda
         layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
         autoDisplay: false
     }, 'google_translate_element');
@@ -195,6 +194,5 @@ function googleTranslateElementInit() {
 document.addEventListener('DOMContentLoaded', function() {
     googleTranslateElementInit();
 });
-
 
 
